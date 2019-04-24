@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SDCenterCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="157"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="339" height="157"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="7yd-MZ-jdA">
+                        <rect key="frame" x="0.0" y="12" width="339" height="135"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="肿瘤专区" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GT2-28-pMN">
+                        <rect key="frame" x="0.0" y="117" width="339" height="30"/>
+                        <color key="backgroundColor" red="0.094117647058823528" green="0.094117647058823528" blue="0.094117647058823528" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="p0z-ta-2cI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.99993366003036499" green="1" blue="0.99988192319869995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GT2-28-pMN" secondAttribute="bottom" constant="10" id="AO8-gR-ZnQ"/>
+                <constraint firstAttribute="bottom" secondItem="7yd-MZ-jdA" secondAttribute="bottom" constant="10" id="BRo-Ox-Knn"/>
+                <constraint firstItem="7yd-MZ-jdA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="DS7-kh-ijv"/>
+                <constraint firstItem="GT2-28-pMN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Gzv-l9-Wzi"/>
+                <constraint firstItem="7yd-MZ-jdA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Vrm-Hl-F68"/>
+                <constraint firstAttribute="trailing" secondItem="GT2-28-pMN" secondAttribute="trailing" id="ZGY-US-eGq"/>
+                <constraint firstAttribute="trailing" secondItem="7yd-MZ-jdA" secondAttribute="trailing" id="cUg-GY-hCk"/>
+            </constraints>
+            <size key="customSize" width="339" height="157"/>
+            <point key="canvasLocation" x="-78.5" y="105.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img1" width="375" height="195"/>
+    </resources>
+</document>

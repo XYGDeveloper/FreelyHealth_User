@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ButtonTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fIW-1Y-9Di">
+                        <rect key="frame" x="15" y="8" width="59" height="64"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAD-eN-evq">
+                                <rect key="frame" x="-15" y="5" width="72" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="pBR-NW-NHf"/>
+                                    <constraint firstAttribute="width" constant="72" id="wR2-N7-tY5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="titleEdgeInsets" minX="-17" minY="61" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="22" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="图文咨询" image="c1">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="picConsult:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qtY-VW-xTX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99993365999999995" green="1" blue="0.99988192320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uAD-eN-evq" secondAttribute="trailing" constant="2" id="FER-iD-TbW"/>
+                            <constraint firstAttribute="width" constant="59" id="oE0-ax-DFr"/>
+                            <constraint firstItem="uAD-eN-evq" firstAttribute="top" secondItem="fIW-1Y-9Di" secondAttribute="top" constant="5" id="p8b-jY-VNb"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="28g-iB-z04">
+                        <rect key="frame" x="89" y="8" width="59" height="64"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZQ-Kn-lgb">
+                                <rect key="frame" x="-15" y="4" width="72" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="0Om-0f-QWU"/>
+                                    <constraint firstAttribute="height" constant="33" id="eh1-S4-VS4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="titleEdgeInsets" minX="-17" minY="61" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="22" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="语音咨询" image="c2">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="vioConsult:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="t6L-Gy-CIM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99993365999999995" green="1" blue="0.99988192320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RZQ-Kn-lgb" secondAttribute="trailing" constant="2" id="1q1-cd-Q1O"/>
+                            <constraint firstItem="RZQ-Kn-lgb" firstAttribute="top" secondItem="28g-iB-z04" secondAttribute="top" constant="4" id="418-sc-Qrz"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kep-wT-QvX">
+                        <rect key="frame" x="175" y="8" width="59" height="64"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSW-hD-sSj">
+                                <rect key="frame" x="-13" y="4" width="72" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="titleEdgeInsets" minX="-17" minY="61" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="22" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="视频咨询" image="c3">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="vedConsult:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sd1-MO-wA4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99993365999999995" green="1" blue="0.99988192320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dqx-B5-omg">
+                        <rect key="frame" x="245" y="8" width="59" height="64"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nmn-9q-VSU">
+                                <rect key="frame" x="-15" y="4" width="72" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="D6c-0d-Sy7"/>
+                                    <constraint firstAttribute="height" constant="33" id="jSI-H4-d3p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="titleEdgeInsets" minX="-17" minY="61" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="22" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="预约面诊" image="c4">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="yueConsult:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dt3-qb-uYG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99993365999999995" green="1" blue="0.99988192320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Nmn-9q-VSU" secondAttribute="trailing" constant="2" id="1lZ-dp-Ypg"/>
+                            <constraint firstItem="Nmn-9q-VSU" firstAttribute="top" secondItem="Dqx-B5-omg" secondAttribute="top" constant="4" id="9kb-Z6-I2n"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bIU-8J-t0I">
+                        <rect key="frame" x="75" y="8" width="1" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Dqx-B5-omg" secondAttribute="trailing" constant="8" id="1SV-Df-ahS"/>
+                    <constraint firstItem="28g-iB-z04" firstAttribute="width" secondItem="kep-wT-QvX" secondAttribute="width" id="3uT-rR-TQp"/>
+                    <constraint firstAttribute="topMargin" secondItem="28g-iB-z04" secondAttribute="top" id="9ni-zF-xhz"/>
+                    <constraint firstAttribute="topMargin" secondItem="Dqx-B5-omg" secondAttribute="top" id="GhO-Fn-ZTh"/>
+                    <constraint firstItem="fIW-1Y-9Di" firstAttribute="height" secondItem="28g-iB-z04" secondAttribute="height" id="Po0-Ag-w1P"/>
+                    <constraint firstItem="28g-iB-z04" firstAttribute="height" secondItem="kep-wT-QvX" secondAttribute="height" id="Svb-dj-9xV"/>
+                    <constraint firstItem="fIW-1Y-9Di" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="ULt-jc-DIr"/>
+                    <constraint firstItem="Dqx-B5-omg" firstAttribute="leading" secondItem="kep-wT-QvX" secondAttribute="trailing" constant="11" id="Y7I-oE-pWp"/>
+                    <constraint firstItem="fIW-1Y-9Di" firstAttribute="width" secondItem="28g-iB-z04" secondAttribute="width" id="bSN-mo-DbX"/>
+                    <constraint firstItem="kep-wT-QvX" firstAttribute="width" secondItem="Dqx-B5-omg" secondAttribute="width" id="d9m-8h-ljg"/>
+                    <constraint firstItem="kep-wT-QvX" firstAttribute="height" secondItem="Dqx-B5-omg" secondAttribute="height" id="dqZ-kh-whB"/>
+                    <constraint firstItem="fIW-1Y-9Di" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="f6z-Va-rFA"/>
+                    <constraint firstItem="fIW-1Y-9Di" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="lp5-A0-Clt"/>
+                    <constraint firstAttribute="topMargin" secondItem="kep-wT-QvX" secondAttribute="top" id="nKt-wJ-Mtf"/>
+                    <constraint firstItem="28g-iB-z04" firstAttribute="leading" secondItem="fIW-1Y-9Di" secondAttribute="trailing" constant="15" id="pYK-im-DCz"/>
+                    <constraint firstItem="kep-wT-QvX" firstAttribute="leading" secondItem="28g-iB-z04" secondAttribute="trailing" constant="27" id="zlZ-ve-8IB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-112" y="-90"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="c1" width="30" height="30"/>
+        <image name="c2" width="30" height="30"/>
+        <image name="c3" width="30" height="30"/>
+        <image name="c4" width="30" height="30"/>
+    </resources>
+</document>

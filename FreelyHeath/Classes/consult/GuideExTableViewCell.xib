@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="240" id="KGk-i7-Jjw" customClass="GuideExTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="239.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8K8-SV-hgH">
+                        <rect key="frame" x="27" y="14" width="265" height="44"/>
+                        <color key="backgroundColor" red="0.9363105297088623" green="0.98849886655807495" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="eNM-B6-Ivb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".PingFangSC-Regular" family=".PingFang SC" pointSize="15"/>
+                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="300" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="专家特诊   在线咨询">
+                            <color key="titleColor" red="0.38039215686274508" green="0.78823529411764703" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="guide1Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zck-1c-g47"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1B-05-2B4">
+                        <rect key="frame" x="269" y="25" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="DRH-jf-1gL"/>
+                            <constraint firstAttribute="width" constant="16" id="hEk-Et-44L"/>
+                        </constraints>
+                        <state key="normal" image="index_detail"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAg-8I-4yL">
+                        <rect key="frame" x="28" y="72" width="265" height="44"/>
+                        <color key="backgroundColor" red="0.93631052969999995" green="0.98849886659999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="eug-SE-D52"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".PingFangSC-Regular" family=".PingFang SC" pointSize="15"/>
+                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal">
+                            <string key="title">陪诊服务   300元／3小时
+
+</string>
+                            <color key="titleColor" red="0.38039215686274508" green="0.78823529411764703" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="guide2Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="N9s-Ec-pBu"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfu-Om-M1F">
+                        <rect key="frame" x="269" y="83" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="8jl-sl-nyf"/>
+                            <constraint firstAttribute="height" constant="22" id="j0w-sY-9P0"/>
+                        </constraints>
+                        <state key="normal" image="index_detail"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2W-1N-gqS">
+                        <rect key="frame" x="28" y="130" width="265" height="44"/>
+                        <color key="backgroundColor" red="0.93631052969999995" green="0.98849886659999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="jHB-yr-lNP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".PingFangSC-Regular" family=".PingFang SC" pointSize="15"/>
+                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="肿瘤患者全案管理   在线咨询">
+                            <color key="titleColor" red="0.38039215686274508" green="0.78823529411764703" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="guide3Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nOv-lL-GNf"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY8-6O-vhx">
+                        <rect key="frame" x="269" y="141" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="ww6-Th-tJw"/>
+                            <constraint firstAttribute="height" constant="22" id="zoa-c7-kvt"/>
+                        </constraints>
+                        <state key="normal" image="index_detail"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdF-FT-jpH">
+                        <rect key="frame" x="28" y="183" width="265" height="44"/>
+                        <color key="backgroundColor" red="0.93631052969999995" green="0.98849886659999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="5se-Wy-Geq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".PingFangSC-Regular" family=".PingFang SC" pointSize="15"/>
+                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="肿瘤患者全案管理   在线咨询">
+                            <color key="titleColor" red="0.3803921569" green="0.78823529410000004" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="guide4Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="YJ7-Py-6b9"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3C-FV-UsL">
+                        <rect key="frame" x="269" y="194" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="8r2-2B-yYw"/>
+                            <constraint firstAttribute="height" constant="22" id="rTb-xm-Zih"/>
+                        </constraints>
+                        <state key="normal" image="index_detail"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uAg-8I-4yL" firstAttribute="top" secondItem="8K8-SV-hgH" secondAttribute="bottom" constant="14" id="0cf-kd-ml8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="8K8-SV-hgH" secondAttribute="trailing" constant="12" id="0s0-sD-YAR"/>
+                    <constraint firstItem="8K8-SV-hgH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="1Hg-aZ-1c2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="LY8-6O-vhx" secondAttribute="trailing" constant="19" id="1Xa-h6-v1A"/>
+                    <constraint firstItem="xdF-FT-jpH" firstAttribute="top" secondItem="E2W-1N-gqS" secondAttribute="bottom" constant="9" id="2Jm-3i-lTZ"/>
+                    <constraint firstItem="E2W-1N-gqS" firstAttribute="top" secondItem="uAg-8I-4yL" secondAttribute="bottom" constant="14" id="64K-n8-hch"/>
+                    <constraint firstItem="mfu-Om-M1F" firstAttribute="top" secondItem="uAg-8I-4yL" secondAttribute="bottom" constant="-33" id="6Cg-Ux-jMT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="E2W-1N-gqS" secondAttribute="trailing" constant="11" id="7es-HE-7wA"/>
+                    <constraint firstItem="xdF-FT-jpH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="Bg1-Z2-MuY"/>
+                    <constraint firstItem="j3C-FV-UsL" firstAttribute="top" secondItem="xdF-FT-jpH" secondAttribute="bottom" constant="-33" id="Gai-8J-kYy"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="j3C-FV-UsL" secondAttribute="trailing" constant="19" id="Or5-jC-rZ5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="uAg-8I-4yL" secondAttribute="trailing" constant="11" id="UOy-14-8Vl"/>
+                    <constraint firstItem="uAg-8I-4yL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="UaT-ZJ-Hah"/>
+                    <constraint firstItem="8K8-SV-hgH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="11" id="cBo-4R-1qM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="f1B-05-2B4" secondAttribute="trailing" constant="19" id="cmI-Di-iBT"/>
+                    <constraint firstItem="LY8-6O-vhx" firstAttribute="top" secondItem="E2W-1N-gqS" secondAttribute="bottom" constant="-33" id="fAa-eJ-Qkj"/>
+                    <constraint firstItem="E2W-1N-gqS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="lKV-eo-208"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xdF-FT-jpH" secondAttribute="trailing" constant="11" id="nqB-1b-On1"/>
+                    <constraint firstItem="f1B-05-2B4" firstAttribute="top" secondItem="8K8-SV-hgH" secondAttribute="bottom" constant="-33" id="tty-ZA-7Sl"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="mfu-Om-M1F" secondAttribute="trailing" constant="19" id="y1I-3Y-x0K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="guid4Button" destination="xdF-FT-jpH" id="zUo-PN-tgj"/>
+                <outlet property="guide2Button" destination="uAg-8I-4yL" id="7oS-Tg-eyF"/>
+                <outlet property="guide3Button" destination="E2W-1N-gqS" id="oWB-2E-MEg"/>
+                <outlet property="guideButton1" destination="8K8-SV-hgH" id="IeD-II-Ix9"/>
+                <outlet property="roow" destination="LY8-6O-vhx" id="idd-Rt-jZv"/>
+            </connections>
+            <point key="canvasLocation" x="-167" y="-63"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="index_detail" width="14" height="14"/>
+    </resources>
+</document>

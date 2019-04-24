@@ -1,0 +1,37 @@
+//
+//  FreeHealth.pch
+//  FreelyHeath
+//
+//  Created by L on 2017/7/17.
+//  Copyright © 2017年 深圳乐易住智能科技股份有限公司. All rights reserved.
+//
+
+#ifndef FreeHealth_pch
+#define FreeHealth_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "ProjectHeader.h"
+#import "Url.h"
+#import "ProgectStatics.h"
+#import "Category.h"
+#import "FHConst.h"
+#import "UINavigationController+Base.h"
+#import "UIViewController+Base.h"
+#import "UIImageView+WebCache.h"
+#import "User.h"
+#import <AlipaySDK/AlipaySDK.h>
+#import "EmptyManager.h"
+#import "JGProgressHUD.h"
+#import "Public.h"
+#import "Public+JGHUD.h"
+#import <RongIMKit/RongIMKit.h>
+#import <RongIMLib/RongIMLib.h>
+#import <RongCallLib/RongCallLib.h>
+#import <RongCallKit/RongCallKit.h>
+#import "Reachability.h"
+#import "Udesk_WHC_HttpManager.h"
+#import "UDIDIdenity.h"
+#import "KissXML.h"
+
+#endif /* FreeHealth_pch */

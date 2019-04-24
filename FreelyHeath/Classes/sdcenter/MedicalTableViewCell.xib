@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="307" id="KGk-i7-Jjw" customClass="MedicalTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="307"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="306"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePl-DN-A8k">
+                        <rect key="frame" x="20" y="14" width="280" height="278"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="005x68CJgy6NHxegyOW5e&amp;690.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hfi-sk-gGl">
+                                <rect key="frame" x="0.0" y="0.0" width="280" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="oxW-kN-tmL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="陪诊服务" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bY-Sh-VUq">
+                                <rect key="frame" x="0.0" y="149" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.99993366003036499" green="1" blue="0.99988192319869995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bpg-8c-uf6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="对接上海、北京各大三甲医院优质医疗专家资源，如有就医需求，精准推荐擅长此种疾病的专家，免费为客户提供网上号源代预约......" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cks-eA-TYZ">
+                                <rect key="frame" x="0.0" y="189" width="280" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JmN-mx-HYj">
+                                <rect key="frame" x="0.0" y="192" width="272" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99993366003036499" green="1" blue="0.99988192319869995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hfi-sk-gGl" secondAttribute="trailing" id="R9B-XR-nOA"/>
+                            <constraint firstItem="7bY-Sh-VUq" firstAttribute="top" secondItem="hfi-sk-gGl" secondAttribute="bottom" constant="-1" id="XuS-Mz-pgt"/>
+                            <constraint firstAttribute="bottom" secondItem="Cks-eA-TYZ" secondAttribute="bottom" constant="0.5" id="YnO-Dc-0Ov"/>
+                            <constraint firstItem="hfi-sk-gGl" firstAttribute="top" secondItem="ePl-DN-A8k" secondAttribute="top" id="ien-qf-8gF"/>
+                            <constraint firstAttribute="trailing" secondItem="7bY-Sh-VUq" secondAttribute="trailing" id="jmX-yd-DCg"/>
+                            <constraint firstItem="Cks-eA-TYZ" firstAttribute="top" secondItem="7bY-Sh-VUq" secondAttribute="bottom" constant="-10" id="k2C-zT-jEv"/>
+                            <constraint firstAttribute="trailing" secondItem="Cks-eA-TYZ" secondAttribute="trailing" id="kXB-ei-oSf"/>
+                            <constraint firstItem="hfi-sk-gGl" firstAttribute="leading" secondItem="ePl-DN-A8k" secondAttribute="leading" id="pH6-DS-rxB"/>
+                            <constraint firstItem="7bY-Sh-VUq" firstAttribute="leading" secondItem="ePl-DN-A8k" secondAttribute="leading" id="pNF-RJ-B5U"/>
+                            <constraint firstItem="Cks-eA-TYZ" firstAttribute="leading" secondItem="ePl-DN-A8k" secondAttribute="leading" id="xII-Ob-OKj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="ePl-DN-A8k" secondAttribute="trailing" constant="12" id="YFC-4d-CB0"/>
+                    <constraint firstItem="ePl-DN-A8k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="cW1-89-hsz"/>
+                    <constraint firstItem="ePl-DN-A8k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="oT4-AW-VtF"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ePl-DN-A8k" secondAttribute="bottom" constant="6" id="paF-YY-3tg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgView" destination="ePl-DN-A8k" id="kJm-Oq-36Z"/>
+                <outlet property="contentLabel" destination="Cks-eA-TYZ" id="azD-oA-gfo"/>
+                <outlet property="middleLabel" destination="7bY-Sh-VUq" id="afz-SY-OQd"/>
+                <outlet property="topImg" destination="hfi-sk-gGl" id="rRj-Ml-ix9"/>
+            </connections>
+            <point key="canvasLocation" x="-311" y="-19"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="005x68CJgy6NHxegyOW5e&amp;690.jpg" width="16" height="16"/>
+    </resources>
+</document>

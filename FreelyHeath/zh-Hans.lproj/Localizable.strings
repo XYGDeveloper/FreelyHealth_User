@@ -1,0 +1,54 @@
+
+/*
+ * tabbar_                   主视图相关
+ * xxx_viewcontroller        控制器相关
+ * xxx_viewcontroller_title  控制器相关_title
+ * xxx_view                  试图相关
+ * xxx_model                 模型相关
+ * xxx_alert_sure            提示——确定
+ * xxx_alert_sure            提示——取消
+ * xxx_alert_message         提示--正文
+ */
+
+"tabbar_consult" = "肿瘤中心";
+"tabbar_sdcenter" = "直医";
+"tabbar_me" = "我的";
+
+"login_viewcontroller_title" = "登录";
+"login_viewcontroller_remark" = "使用手机号登录获取免费医疗咨询";
+"login_viewcontroller_telephonelabel" = "手机号";
+"login_viewcontroller_telephoneplacehoder" = "手机号";
+"login_viewcontroller_valicodeplacehoder" = "请输入您的验证码";
+"login_viewcontroller_valicode" = "验证码";
+"login_viewcontroller_postvliacode" = "发送验证码";
+
+/*
+ *  net_error          网络状态异常相关
+ *  net_data           网络数据相关
+ */
+
+"net_error" = "您的网络好像有问题";
+
+/*
+ * teleph               验证手机号码相关
+ * cevar                验证证件号码相关
+ * account              验证账号相关
+ * psd                  验证密码相关
+ */
+/* Class = "UILabel"; text = "允许选择照片原图"; ObjectID = "7mi-Lf-2N5"; */
+"7mi-Lf-2N5.text" = "允许选择照片原图";
+
+/* Class = "UILabel"; text = "显示内部拍照按钮"; ObjectID = "R92-Zn-NWV"; */
+"R92-Zn-NWV.text" = "显示内部拍照按钮";
+
+/* Class = "UILabel"; text = "照片按修改时间升序排列"; ObjectID = "UL3-n3-Hmt"; */
+"UL3-n3-Hmt.text" = "照片按修改时间升序排列";
+
+/* Class = "UILabel"; text = "把拍照按钮放在外面"; ObjectID = "jop-5R-ioj"; */
+"jop-5R-ioj.text" = "把拍照按钮放在外面";
+
+/* Class = "UILabel"; text = "允许选择照片"; ObjectID = "vNN-OI-9z1"; */
+"vNN-OI-9z1.text" = "允许选择照片";
+
+/* Class = "UILabel"; text = "允许选择视频"; ObjectID = "xCu-D3-IZg"; */
+"xCu-D3-IZg.text" = "允许选择视频";

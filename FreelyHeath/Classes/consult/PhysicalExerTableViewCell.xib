@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="236" id="KGk-i7-Jjw" customClass="PhysicalExerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="236"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="235.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43i-wf-GUl">
+                        <rect key="frame" x="20" y="16" width="281" height="44"/>
+                        <color key="backgroundColor" red="0.92846769094467163" green="0.9806552529335022" blue="0.99246340990066528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="sMv-uH-2Nf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="9" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="300" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="企业体检套餐1">
+                            <color key="titleColor" red="0.38039215686274508" green="0.78823529411764703" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="packageAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="OBB-y1-hDN"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dog-bk-HGE">
+                        <rect key="frame" x="20" y="71" width="281" height="40"/>
+                        <color key="backgroundColor" red="0.92846769090000003" green="0.9806552529" blue="0.99246340990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="9" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="300" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="企业体检套餐2">
+                            <color key="titleColor" red="0.3803921569" green="0.78823529410000004" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="package2Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5uZ-92-2qY"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLJ-EF-cmc">
+                        <rect key="frame" x="20" y="179" width="281" height="40"/>
+                        <color key="backgroundColor" red="0.92846769090000003" green="0.9806552529" blue="0.99246340990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="9" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="300" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="企业体检套餐4">
+                            <color key="titleColor" red="0.3803921569" green="0.78823529410000004" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="package4Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="v6d-FR-JWH"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5EQ-uH-XGP">
+                        <rect key="frame" x="20" y="125" width="281" height="40"/>
+                        <color key="backgroundColor" red="0.92846769090000003" green="0.9806552529" blue="0.99246340990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="9" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="300" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="企业体检套餐3">
+                            <color key="titleColor" red="0.3803921569" green="0.78823529410000004" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="package3Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qjw-gU-Dxq"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGv-MG-Ejd">
+                        <rect key="frame" x="276" y="27" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="ZJG-jd-ZWh"/>
+                            <constraint firstAttribute="width" constant="16" id="hue-Wp-dkA"/>
+                        </constraints>
+                        <state key="normal" image="index_detail"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1h-xH-ntG">
+                        <rect key="frame" x="276" y="80" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="J84-iK-YTR"/>
+                            <constraint firstAttribute="width" constant="16" id="QWZ-xt-rh0"/>
+                        </constraints>
+                        <state key="normal" image="index_detail"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnI-Ra-7ko">
+                        <rect key="frame" x="276" y="134" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="Hg5-z1-F85"/>
+                            <constraint firstAttribute="height" constant="22" id="Sdf-Nj-FEC"/>
+                        </constraints>
+                        <state key="normal" image="index_detail"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dg-P1-pQc">
+                        <rect key="frame" x="276" y="188" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="EQj-p2-pCE"/>
+                            <constraint firstAttribute="width" constant="16" id="OXR-bX-p8l"/>
+                        </constraints>
+                        <state key="normal" image="index_detail"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="sLJ-EF-cmc" secondAttribute="trailing" constant="11" id="2pW-8v-a0r"/>
+                    <constraint firstItem="dog-bk-HGE" firstAttribute="width" secondItem="5EQ-uH-XGP" secondAttribute="width" id="542-BN-4rP"/>
+                    <constraint firstItem="43i-wf-GUl" firstAttribute="width" secondItem="dog-bk-HGE" secondAttribute="width" id="6jG-zm-E8f"/>
+                    <constraint firstItem="5EQ-uH-XGP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="8wV-EP-a2F"/>
+                    <constraint firstItem="0dg-P1-pQc" firstAttribute="centerY" secondItem="sLJ-EF-cmc" secondAttribute="centerY" id="FW8-Im-Sw1"/>
+                    <constraint firstItem="5EQ-uH-XGP" firstAttribute="width" secondItem="sLJ-EF-cmc" secondAttribute="width" id="GKy-fM-87D"/>
+                    <constraint firstItem="sLJ-EF-cmc" firstAttribute="top" secondItem="5EQ-uH-XGP" secondAttribute="bottom" constant="14" id="H89-xr-8lo"/>
+                    <constraint firstItem="5EQ-uH-XGP" firstAttribute="top" secondItem="dog-bk-HGE" secondAttribute="bottom" constant="14" id="Hfl-i1-3kG"/>
+                    <constraint firstItem="dog-bk-HGE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="Jv4-I8-fuD"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="43i-wf-GUl" secondAttribute="trailing" constant="11" id="MqN-qG-Zq2"/>
+                    <constraint firstItem="dog-bk-HGE" firstAttribute="height" secondItem="5EQ-uH-XGP" secondAttribute="height" id="O5g-Jg-vpi"/>
+                    <constraint firstItem="43i-wf-GUl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="RVn-5t-ML8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="5EQ-uH-XGP" secondAttribute="trailing" constant="11" id="STy-Yn-ZEJ"/>
+                    <constraint firstItem="0dg-P1-pQc" firstAttribute="leading" secondItem="sLJ-EF-cmc" secondAttribute="trailing" constant="-25" id="VGM-lH-PyD"/>
+                    <constraint firstItem="dog-bk-HGE" firstAttribute="top" secondItem="43i-wf-GUl" secondAttribute="bottom" constant="11" id="XNb-ox-JDH"/>
+                    <constraint firstItem="43i-wf-GUl" firstAttribute="height" secondItem="dog-bk-HGE" secondAttribute="height" constant="4" id="YwC-0x-Lwa"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sLJ-EF-cmc" secondAttribute="bottom" constant="8.5" id="a7Y-oH-8dE"/>
+                    <constraint firstItem="WnI-Ra-7ko" firstAttribute="leading" secondItem="5EQ-uH-XGP" secondAttribute="trailing" constant="-25" id="blq-wa-Ab5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="dog-bk-HGE" secondAttribute="trailing" constant="11" id="cHv-08-01W"/>
+                    <constraint firstItem="q1h-xH-ntG" firstAttribute="leading" secondItem="dog-bk-HGE" secondAttribute="trailing" constant="-25" id="eVB-E1-9CO"/>
+                    <constraint firstItem="rGv-MG-Ejd" firstAttribute="leading" secondItem="43i-wf-GUl" secondAttribute="trailing" constant="-25" id="f9h-vO-AlC"/>
+                    <constraint firstItem="43i-wf-GUl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="oLM-dL-T6y"/>
+                    <constraint firstItem="q1h-xH-ntG" firstAttribute="centerY" secondItem="dog-bk-HGE" secondAttribute="centerY" id="pG9-p8-Zrp"/>
+                    <constraint firstItem="5EQ-uH-XGP" firstAttribute="height" secondItem="sLJ-EF-cmc" secondAttribute="height" id="qhp-cV-Hto"/>
+                    <constraint firstItem="sLJ-EF-cmc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="tpT-cc-hLY"/>
+                    <constraint firstItem="rGv-MG-Ejd" firstAttribute="centerY" secondItem="43i-wf-GUl" secondAttribute="centerY" id="vJ4-rm-VfB"/>
+                    <constraint firstItem="WnI-Ra-7ko" firstAttribute="centerY" secondItem="5EQ-uH-XGP" secondAttribute="centerY" id="vKN-57-Q45"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="pacakage1" destination="43i-wf-GUl" id="YTc-R6-Y9k"/>
+                <outlet property="package2" destination="dog-bk-HGE" id="zES-TC-BG4"/>
+                <outlet property="package3" destination="5EQ-uH-XGP" id="CuX-NB-iFf"/>
+                <outlet property="package4" destination="sLJ-EF-cmc" id="VBg-ED-Lub"/>
+            </connections>
+            <point key="canvasLocation" x="-142" y="-50"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="index_detail" width="14" height="14"/>
+    </resources>
+</document>
